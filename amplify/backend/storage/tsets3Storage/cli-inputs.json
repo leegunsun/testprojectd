@@ -1,0 +1,11 @@
+{
+  "resourceName": "tsets3Storage",
+  "policyUUID": "3c21feef",
+  "bucketName": "projectdb0819646c5844b6fbef23a8ab6707c5e",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "groupAccess": {}
+}
