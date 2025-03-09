@@ -175,6 +175,13 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ).result;
 
+      // 메타데이터 및 태그 가져오기
+      final properties = await Amplify.Storage.getProperties(
+        path: StoragePath.fromString(path),
+      ).result;
+
+      print(properties);
+
       setState(() {
         imageUrls[path] = result.url.toString();
         CustomCacheManager.preloadImage(context, result.url.toString());
