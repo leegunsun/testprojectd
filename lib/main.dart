@@ -17,7 +17,7 @@ import 'package:projectd/navigation_manager.dart';
 import 'amplifyconfiguration.dart';
 import 'home.dart';
 
-// 1 2 3 4 5
+// 1 2 3 4 5 6
 
 final AmplifyLogger customLogger = AmplifyLogger('MyStorageApp');
 
